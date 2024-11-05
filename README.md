@@ -1,5 +1,7 @@
 # agents
 
+[Course notes](https://clumsy-humor-894.notion.site/Agent-from-scratch-13554fed51a380749554c44aa8989406?pvs=4)
+
 To install dependencies:
 
 ```bash
