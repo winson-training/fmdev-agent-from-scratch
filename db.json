@@ -23,6 +23,65 @@
       "content": "Nice to meet you, Scott! How can I assist you today?",
       "id": "70a9b0ae-a6ec-4523-a4dd-81ce5c27e080",
       "createdAt": "2024-11-05T17:40:29.361Z"
+    },
+    {
+      "role": "user",
+      "content": "what is your name?",
+      "id": "47020c08-f2ba-46e9-a212-8b12be7e166b",
+      "createdAt": "2024-11-27T03:01:31.831Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have a personal name like a human does, but you can call me Assistant. How can I help you today, Scott?",
+      "id": "0691e57c-17b7-4728-b309-bc46b23ff33d",
+      "createdAt": "2024-11-27T03:01:33.048Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "be1642dc-aa4c-4e53-86c7-dc4b3f1acaf8",
+      "createdAt": "2024-11-27T05:52:09.787Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "ed5f6014-0d8a-49cd-a845-f7c6cda833ff",
+      "createdAt": "2024-11-27T05:58:46.621Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "5e94507f-dd85-402d-90bf-333e0485177c",
+      "createdAt": "2024-11-27T06:00:33.395Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "31c1297f-8e32-46e2-a9ee-2e7b7dd9e87a",
+      "createdAt": "2024-11-27T06:05:34.918Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "8eb8af02-cade-4372-97ca-168f4cc1ad6b",
+      "createdAt": "2024-11-27T06:10:05.618Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_6V4WR2qkM66W4jO2LEA3Q5UB",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "ad02e1b8-d9e3-4108-b707-e4ab2ba253e1",
+      "createdAt": "2024-11-27T06:10:07.597Z"
     }
   ]
 }
