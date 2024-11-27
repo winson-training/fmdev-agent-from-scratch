@@ -2,76 +2,16 @@
   "messages": [
     {
       "role": "user",
-      "content": "what is my name?",
-      "id": "bd80859c-cd9f-4b41-9c50-0b5761c2657a",
-      "createdAt": "2024-11-05T17:40:01.921Z"
-    },
-    {
-      "role": "assistant",
-      "content": "I'm sorry, but I don't have access to personal information about users unless it has been shared with me in the course of our conversation. If you'd like, you can tell me your name!",
-      "id": "f30a762d-a5f4-4754-9120-667de2f44c37",
-      "createdAt": "2024-11-05T17:40:02.824Z"
-    },
-    {
-      "role": "user",
-      "content": "My name is Scott",
-      "id": "a884ba5b-8ec3-482a-bd6c-18babe76ec05",
-      "createdAt": "2024-11-05T17:40:28.739Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Nice to meet you, Scott! How can I assist you today?",
-      "id": "70a9b0ae-a6ec-4523-a4dd-81ce5c27e080",
-      "createdAt": "2024-11-05T17:40:29.361Z"
-    },
-    {
-      "role": "user",
-      "content": "what is your name?",
-      "id": "47020c08-f2ba-46e9-a212-8b12be7e166b",
-      "createdAt": "2024-11-27T03:01:31.831Z"
-    },
-    {
-      "role": "assistant",
-      "content": "I don't have a personal name like a human does, but you can call me Assistant. How can I help you today, Scott?",
-      "id": "0691e57c-17b7-4728-b309-bc46b23ff33d",
-      "createdAt": "2024-11-27T03:01:33.048Z"
-    },
-    {
-      "role": "user",
-      "content": "what is the weather?",
-      "id": "be1642dc-aa4c-4e53-86c7-dc4b3f1acaf8",
-      "createdAt": "2024-11-27T05:52:09.787Z"
-    },
-    {
-      "role": "user",
-      "content": "what is the weather?",
-      "id": "ed5f6014-0d8a-49cd-a845-f7c6cda833ff",
-      "createdAt": "2024-11-27T05:58:46.621Z"
-    },
-    {
-      "role": "user",
-      "content": "what is the weather?",
-      "id": "5e94507f-dd85-402d-90bf-333e0485177c",
-      "createdAt": "2024-11-27T06:00:33.395Z"
-    },
-    {
-      "role": "user",
-      "content": "what is the weather?",
-      "id": "31c1297f-8e32-46e2-a9ee-2e7b7dd9e87a",
-      "createdAt": "2024-11-27T06:05:34.918Z"
-    },
-    {
-      "role": "user",
-      "content": "what is the weather?",
-      "id": "8eb8af02-cade-4372-97ca-168f4cc1ad6b",
-      "createdAt": "2024-11-27T06:10:05.618Z"
+      "content": "how's the weather?",
+      "id": "acdab289-5cf1-4a9c-bbcc-21d54d00c1b3",
+      "createdAt": "2024-11-27T21:13:21.037Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_6V4WR2qkM66W4jO2LEA3Q5UB",
+          "id": "call_v35et0eybQWNRq6R8WnOZieh",
           "type": "function",
           "function": {
             "name": "get_weather",
@@ -80,8 +20,84 @@
         }
       ],
       "refusal": null,
-      "id": "ad02e1b8-d9e3-4108-b707-e4ab2ba253e1",
-      "createdAt": "2024-11-27T06:10:07.597Z"
+      "id": "b64882d7-2f62-47bf-9c39-18514c23b130",
+      "createdAt": "2024-11-27T21:13:22.356Z"
+    },
+    {
+      "role": "tool",
+      "content": "The weather is nice today!",
+      "tool_call_id": "call_v35et0eybQWNRq6R8WnOZieh",
+      "id": "1dedc2fe-43da-4e3c-b72e-8554530c7226",
+      "createdAt": "2024-11-27T21:13:22.363Z"
+    },
+    {
+      "role": "user",
+      "content": "how's the weather?",
+      "id": "09a82db0-93db-470a-a46f-a2cf9178641f",
+      "createdAt": "2024-11-27T21:20:15.831Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The weather is nice today!",
+      "refusal": null,
+      "id": "dd59bca4-d60e-4c09-b7b9-3b898244e5e7",
+      "createdAt": "2024-11-27T21:20:16.365Z"
+    },
+    {
+      "role": "user",
+      "content": "how's the weather?",
+      "id": "cf8701cf-6d6b-41a1-9e9e-78342d231676",
+      "createdAt": "2024-11-27T21:20:20.899Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The weather is nice today!",
+      "refusal": null,
+      "id": "89dc4d60-1bf7-434f-bf79-f1c6875fd0b6",
+      "createdAt": "2024-11-27T21:20:21.407Z"
+    },
+    {
+      "role": "user",
+      "content": "how's the weather right now though?",
+      "id": "328dd577-0c3c-49ca-a1ef-4d02e15eb664",
+      "createdAt": "2024-11-27T21:20:27.694Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_LUkXt1IINQapN0QofIevNolH",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "0484fdf6-dc68-40f7-96e1-dd758315d15b",
+      "createdAt": "2024-11-27T21:20:28.319Z"
+    },
+    {
+      "role": "tool",
+      "content": "The weather is nice today!",
+      "tool_call_id": "call_LUkXt1IINQapN0QofIevNolH",
+      "id": "4a9ba2d3-e0e8-45a3-a08b-f87362574760",
+      "createdAt": "2024-11-27T21:20:28.329Z"
+    },
+    {
+      "role": "user",
+      "content": "how's the weather right now though?",
+      "id": "c3e5c331-5766-490e-be38-bc26069fa525",
+      "createdAt": "2024-11-27T21:20:32.295Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The weather is nice right now!",
+      "refusal": null,
+      "id": "46d5e493-3d26-4e87-b5ad-58c27e96451d",
+      "createdAt": "2024-11-27T21:20:32.925Z"
     }
   ]
 }
